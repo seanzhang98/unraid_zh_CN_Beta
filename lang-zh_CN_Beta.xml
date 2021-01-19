@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language>
+<LanguageURL>https://github.com/seanzhang98/unraid_zh_CN_Beta/archive/master.zip</LanguageURL>
+<Language>Simplified Chinese</Language>
+<LanguageLocal>简体中文</LanguageLocal>
+<LanguagePack>zh_CN_Beta</LanguagePack>
+<Author>Sean Zœœhang ,Nika Wang, William Fung, 少花一点, Javy Liu, Witte Kwok, Han Liu</Author>
+<Name>简体中文语言包-测试包</Name>
+<TemplateURL>https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_test/master/lang-zh_CN_Beta.xml</TemplateURL>
+<Version>2021.01.13</Version>
+<Icon>https://raw.githubusercontent.com/unraid/language-templates/master/limetech/Green-Earth-Transparent-File.png</Icon>
+<Support>https://forums.unraid.net/forum/88-chinese-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87/</Support>
+<Description>
+这是Unraid和受支持的插件的中文翻译测试版
+
+This is a Simplified Chinese translation for Unraid and supported plugins Beta
+</Description>
+</Language>

@@ -1,0 +1,29 @@
+Default Script=默认脚本
+Edit Script=编辑脚本
+Enter Script File Name=输入脚本文件名称
+Enter and Edit the Script that runs when a udev or operator event occurs=
+Load the default script=载入默认脚本
+Remove Script File=移除脚本文件
+Run in background=在后台运行
+Save your changes and save to Script File=保存更改到脚本文件
+Save=保存
+Script content=脚本内容
+Turn on to run Script File in the background=开启以在后台运行脚本文件
+Undo your changes since last Save=撤回到上次保存的文件
+;
+; Help
+;
+:ud_edit_script_choose_name_plug:
+> 从文件选择下拉列表中选择脚本名称，或输入所需的脚本名称。
+:end
+
+:ud_edit_script_run_background_plug:
+> 打开“在后台运行”以使脚本作为后台任务运行，这样可以防止从未运行的设备UI挂起脚本。
+:end
+
+:ud_edit_script_buttons_plug:
+> 单击**保存**按钮提交当前编辑；单击**重置**撤消所做的任何更改（保存之前）。单击**完成**退出此页面。
+>
+> 单击**默认脚本**按钮以使用默认脚本初始化编辑框。
+> 您仍然需要单击**保存**以提交更改。
+:end
