@@ -6,17 +6,20 @@
 
 ## 使用方法：
 ### 安装
-1、进入 Unraid 系统
-2、点击 “Tools”
-3、选择 “webGUI” 下的 “Language”
-4、在 “Enter URL of language pack XML file” 下输入
+- 进入 Unraid 系统
+- 点击 “Tools”
+- 选择 “webGUI” 下的 “Language”
+- 在 “Enter URL of language pack XML file” 下输入
 ``https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/lang-zh_CN_Beta.xml`` 
-5、点击 “Install” 进行安装
-6、刷新页面
+- 点击 “Install” 进行安装
+- 刷新页面
 
 ### 更新
-1、点击 “简体中文” 隔壁的小垃圾桶
-2、重复安装中的步骤 4 & 5 & 6即可完成更新。
+- 点击 “简体中文” 隔壁的小垃圾桶删除现有的语言包
+- 在 “Enter URL of language pack XML file” 下输入
+``https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/lang-zh_CN_Beta.xml`` 
+- 点击 “Install” 进行安装
+- 刷新页面
 
 
 
