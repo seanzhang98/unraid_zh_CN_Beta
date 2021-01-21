@@ -5,6 +5,7 @@ Active=有效
 active=活动
 Actual results=实际结果
 Add Container=添加容器
+Add Folder=添加文件夹
 Add VM=添加虚拟机
 Advanced View=高级视图
 AFP Security Settings=AFP 安全设置
