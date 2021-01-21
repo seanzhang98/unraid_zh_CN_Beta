@@ -1,4 +1,5 @@
 Absolute=绝对
+About an %s=大约 1
 Address=地址
 Acknowledge=确认
 Active=有效
