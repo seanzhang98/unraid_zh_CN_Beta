@@ -130,13 +130,13 @@ You will need to enter credentials for Windows 10 shares just to list them=你�
 > 您可以使用未分配设备来挂载USB设备，SATA驱动器，远程 SMB/NFS 共享以及 ISO 文件。启动阵列时，任何具设定了自动挂载的贝贝将会自动挂载。当阵列在‘stopping_svcs’ 事件中停止时，将卸载所有已挂在的设备和 SMB/NFS 挂载。
 > 如果要共享驱动器，则可以打开“共享”开关。远程 SMB 共享默认的安全性是公开，访问权限为读/写。这些设置都可以在未分配的设备设置进行更改。NFS 共享默认可见性为可见，访问权限为读/写。NFS 设备的可见性可以在“未分配的设备”设置中更改。您还可以为每个磁盘安装上可执行的通用脚本，这些脚本将在磁盘挂载时自动执行。为了共享任何未分配设备，需要在“未分配设备”设置中启用共享，并且打开开关以共享特定设备。SMB/NFS 默认删除共享，而 ISO 装载始终共享。
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> 额外的设置内容可以点击设备标示隔壁的 <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> 图标查看。当设备处于未挂载的状态，设备的挂载点可以进行更改。磁盘标签也会更改。可以格式化磁盘并运行 fsck 来对磁盘进行检查。
 >
-> The 'Settings->Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> “设置->未分配设备” 中的 SMB 和 NFS 的安全设置必须正常配置以使共享能正常工作。
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping.  The remote share server must respond to a ping or UD will consider it off-line.
+> 如果 SMB/NFS 远程共享的“挂载”按钮显示为灰色，则说明远程服务器没有响应ping。远程共享服务器必须响应ping，否则未分配设备将认为它是脱机的。
 >
-> UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
+> “未分配设备”支持“破坏模式”，该模式允许删除磁盘分区和格式化磁盘。如果“未分配设备设置”中的“破坏模式”未打开，您将无法格式化磁盘或删除分区。转到“设置->未分配的设备”以启用破坏模式。
 >
 > **格式化磁盘:**
 >
@@ -148,18 +148,18 @@ You will need to enter credentials for Windows 10 shares just to list them=你�
 >
 > **加密磁盘:**
 >
-> + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
-> + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
+> + 以“未分配设备”格式化的任何已加密磁盘都将使用阵列密码/口令，并且可以将其合并到阵列中。或者，您可以在格式化时单独设置唯一的密码。如果您在格式化磁盘时设置了密码，则需要在“未分配的设备->磁盘设置”中为该磁盘输入磁盘密码。
+> + 可以通过在“未分配的设备->设置”中设置每个磁盘密码来挂载任何未在阵列中分配的磁盘的密码/口令。
 >
-> **Unassigned devices script:**
+> **未分配设备脚本:**
 >
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+> “未分配设备”支持脚本。脚本可以在挂载和卸载设备（包含 SMB/NFS 共享挂载和卸载）时使用。这些脚本可以从命令行使用，也可以根据需要在脚本中使用。
 >
-> + '/usr/local/sbin/rc.unassigned mount auto' - all devices and SMB/NFS mounts set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - mount device sdX where 'X' is the device designator.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - unmount device sdX where 'X' is the device designator. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - used at the end of the 'ADD' case of a script so the 'Running...' indicator will be updated.
+> + '/usr/local/sbin/rc.unassigned mount auto' - 将挂载所有设置为自动挂载的设备和 SMB/NFS 共享。
+> + '/usr/local/sbin/rc.unassigned umount auto' - 将卸载所有设置为自动挂载的设备和 SMB/NFS 共享。
+> + '/usr/local/sbin/rc.unassigned umount all' - 所有挂载的设备和 SMB/NFS 共享将在阵列停止时自动卸载。
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX' - 挂载设备 sdX（X 是设备的编号）。
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX' - 卸载设备 sdX（X 是设备的编号）。您可以使用该脚本以在脚本执行完毕之后卸载设备。
+> + '/usr/local/sbin/rc.unassigned refresh /dev/sdX' - 在 'ADD' 之后使用，'Running...' 指示器才会正常刷新。
 :end
 
