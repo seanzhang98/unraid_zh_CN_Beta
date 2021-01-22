@@ -83,7 +83,7 @@ share for=共享
 Simple=简单
 Source=源
 Success=成功
-Switch Display Mode=
+Switch Display Mode=切换显示模式
 Share Type=共享类型
 Switch On to Show All Partitions=开启以显示所有分区
 This will remove the ISO file share for=这将会移除以下目录的 ISO 文件共享
@@ -126,9 +126,9 @@ You will need to enter credentials for Windows 10 shares just to list them=你�
 :unassigned_devices_general_help_plug:
 > 
 >
-> Hover your mouse over an any active area on the UD page and a tool tip will show you what clicking that area does.
-> You can mount USB devices, sata drives, Remote SMB/NFS shares, and ISO Files with UD.  Any devices with the auto mount switch on will be mounted when the array is started.  All drives and SMB/NFS Mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch.  The default for Remote SMB shares is Public read/write access.  Enable SMB Security by user in the Unassigned Devices Settings.  NFS shares are exported and access is read/write.  The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount.  In order to share any UD device, sharing needs to be enabled in the UD Settings and the switch turned on to share the particular device.  SMB/NFS remove shares and ISO mounts are always shared.
+> 将鼠标悬停在页面上的可操作区域上，然后系统将显示单击该区域的作用。
+> 您可以使用未分配设备来挂载USB设备，SATA驱动器，远程 SMB/NFS 共享以及 ISO 文件。启动阵列时，任何具设定了自动挂载的贝贝将会自动挂载。当阵列在‘stopping_svcs’ 事件中停止时，将卸载所有已挂在的设备和 SMB/NFS 挂载。
+> 如果要共享驱动器，则可以打开“共享”开关。远程 SMB 共享默认的安全性是公开，访问权限为读/写。这些设置都可以在未分配的设备设置进行更改。NFS 共享默认可见性为可见，访问权限为读/写。NFS 设备的可见性可以在“未分配的设备”设置中更改。您还可以为每个磁盘安装上可执行的通用脚本，这些脚本将在磁盘挂载时自动执行。为了共享任何未分配设备，需要在“未分配设备”设置中启用共享，并且打开开关以共享特定设备。SMB/NFS 默认删除共享，而 ISO 装载始终共享。
 >
 > Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
 >
@@ -138,15 +138,15 @@ You will need to enter credentials for Windows 10 shares just to list them=你�
 >
 > UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
 >
-> **To format a disk:**
+> **格式化磁盘:**
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed.  Unmount disk, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon,, and click on all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been precelared and shows a grayed 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the preclear status file.
+> + 需要开启“破坏模式”
+> + 磁盘上的所有分区需要已被移除。卸载磁盘挂载，然后点击 <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> 图标，再点击 <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> 图标以移除所有分区。
+> + 如果磁盘已经被选择并且能看到一个灰色的“格式化”按钮，点击 <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> 图标，然后点击 <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> 图标以删除选中的状态文件。
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array. Supported file formats are XFS, XFS encrypted, BTRFS and BTRFS encrypted.**
+> **请注意: 在未分配设备中分区的磁盘与阵列磁盘分区兼容，并且可以添加到阵列中。支持的文件格式为 XFS，XFS（加密），BTRFS 和 BTRFS（加密）。**
 >
-> **Encrypted Disks:**
+> **加密磁盘:**
 >
 > + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
 > + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
