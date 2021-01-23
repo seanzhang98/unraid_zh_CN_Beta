@@ -21,6 +21,14 @@
 - 点击 “Install” 进行安装
 - 刷新页面
 
+### 效果截图
+![image](https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/images/dashboard.png)
+![image](https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/images/main.png)
+![image](https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/images/setting.png)
+![image](https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/images/ca.png)
+![image](https://raw.githubusercontent.com/seanzhang98/unraid_zh_CN_Beta/main/images/tools.png)
+
+
 
 
 #### 本语言包不定期更新维护，会根据英文文档更新内容。
