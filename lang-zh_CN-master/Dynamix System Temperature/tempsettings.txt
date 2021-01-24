@@ -1,0 +1,10 @@
+Available drivers=可用驱动
+Detect=检测驱动
+Save=保存
+Load drivers=加载驱动
+Sensors=传感器
+Processor temperature=处理器温度
+Mainboard temperature=主板温度
+Array fan speed=阵列风扇速度
+Rescan=重新扫描
+Not used=未使用

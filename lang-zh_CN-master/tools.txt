@@ -61,6 +61,7 @@ Docker Safe New Perms=Docker 权限修复
 No notifications present=
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=硬件配置文件中不包括用户名、密码或任何其他文件内容等个人信息
 normal=正常
+No notifications present=没有已存档的通知
 Only ZIP files are allowed=仅允许 ZIP 文件
 Page Map=页面地图
 Parity slots=奇偶校验插槽
