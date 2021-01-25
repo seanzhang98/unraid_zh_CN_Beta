@@ -95,6 +95,7 @@ ReadWrite - Slave=读/写-从属
 rebuild ready=重建就绪
 rebuilding=正在重建
 Remove template=移除模板
+Removal In Progress=正在移除
 Removing container=正在移除容器
 Removing orphan image=正在移除孤立镜像
 Repository=源
