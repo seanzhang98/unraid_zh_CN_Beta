@@ -40,6 +40,7 @@ Update=更新
 Updating all Containers=正在更新所有容器
 Updating the container=正在更新此容器
 VNC Remote=VNC 远程
+Verifying Checksum=正在验证校验和
 WebUI=WebUI
 Yes, delete it=是，请删除
 Yes, update it=是，请更新
