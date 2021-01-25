@@ -101,8 +101,8 @@ The registered GUID does not match the USB Flash boot device GUID=注册的 GUID
 There is a physical problem accessing your USB Flash boot device=访问 USB 闪存引导设备时出现物理问题，
 this may take several minutes=这可能需要几分钟的时间
 This release has been withdrawn for use with Trial keys=此版本已撤消，以便使用 *试用* 密钥
-This server has %s attached storage device=此服务器有 %s 个附加存储设备
-This server has %s attached storage devices=此服务器有 %s 个附加存储设备
+This server has %s attached storage device=此服务器已安装 %s 个存储设备
+This server has %s attached storage devices=此服务器已安装 %s 个存储设备
 This utility is used for troubleshooting purposes=此实用程序用于故障排除目的
 This will delete all notification files=这将删除所有通知文件
 This will update folder file permissions=这将更新文件夹/文件权限
@@ -148,7 +148,7 @@ This controller is bound to vfio, connected USB devices are not visible=此控�
 This controller is bound to vfio, connected drives are not visible=此控制器已绑定到 vfio，相连的驱动不可见
 To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=要查看硬件的自然 IOMMU 组，请执行以下操作, 转到 [虚拟机管理器] 页面，并将 **PCIe ACS 覆盖** 设置为 **已禁用**
 USB Devices=USB 设备
-Your system has booted with the PCIe ACS Override setting enabled=您的系统已启动且启用了PCIe ACS 覆盖设置
+Your system has booted with the PCIe ACS Override setting enabled=您的系统已启动且启用了 PCIe ACS 覆盖设置
 
 :diagnostics_1_plug:
 此实用程序用于故障排除。它将收集所有系统信息和配置文件，并将这些文件打包到一个可以保存在本地的 ZIP 文件。
