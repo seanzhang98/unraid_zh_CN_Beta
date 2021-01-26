@@ -1,0 +1,17 @@
+Real-time=实时
+Last day=昨天
+Last 2 days=过去两天
+Last 3 days=过去三天
+Last week=上周
+Last 2 week=上两周
+Last 3 week=上三周
+Last month=上个月
+Since start=自启动起
+30 seconds=30 秒
+1 minute=1 分钟
+2 minutes=2 分钟
+5 minutes=5 分钟
+10 minutes=10 分钟
+30 minutes=30 分钟
+1 hour=1 小时
+2 hours=2小时

@@ -415,6 +415,35 @@ Core Count=核心数
 Core Enabled=启用核心数
 Thread Count=线程数
 Cache Memory=缓存内存
+Disk Stats=磁盘状态
+System Stats=系统状态
+Total Array Size=总阵列大小
+Total Space Used=总已用空间
+Available for Data=数据可用空间
+Normal Usage=正常占用率
+High on Usage=高占用率
+Low on Space=剩余空间低
+Used for Parity=奇偶校验磁盘大小
+Below=低于
+Above=高于
+Real-time=实时
+Last day=昨天
+Last 2 days=过去 2 天
+Last 3 days=过去 3 天
+Last week=过去 1 周
+Last 2 weeks=过去 2 周
+Last 3 weeks=过去 3 周
+Last month=上个月
+Since start=自启动起
+30 seconds=30 秒
+1 minute=1 分钟
+2 minutes=2 分钟
+5 minutes=5 分钟
+10 minutes=10 分钟
+30 minutes=30 分钟
+1 hour=1 小时
+2 hours=2小时
+
 
 ; Dynamix.system.button plugin
 Array busy=阵列忙碌

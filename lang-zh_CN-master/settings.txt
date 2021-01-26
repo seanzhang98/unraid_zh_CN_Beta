@@ -374,6 +374,7 @@ Routing Table=路由表
 Rules=规则
 Runtime left to initiate shutdown=启动关机程序前的剩余运行时间
 Runtime Left=剩余运行时间
+Stats Settings=状态设置
 Samba extra configuration=Samba 额外配置
 Scheduled parity check=计划的奇偶校验
 Scheduler=计划程序
