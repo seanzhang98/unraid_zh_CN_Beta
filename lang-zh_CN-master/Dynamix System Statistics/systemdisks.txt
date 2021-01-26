@@ -1,2 +1,0 @@
-Disk Stats=磁盘状态
-Total Array Size=总阵列大小

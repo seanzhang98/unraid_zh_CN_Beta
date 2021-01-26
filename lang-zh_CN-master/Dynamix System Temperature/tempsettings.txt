@@ -1,15 +1,16 @@
-Available drivers=可用驱动
-Detect=检测驱动
-Save=保存
-Load drivers=加载驱动
-Sensors=传感器
-Processor temperature=处理器温度
-Mainboard temperature=主板温度
 Array fan speed=阵列风扇速度
-Rescan=重新扫描
-Not used=未使用
+Available drivers=可用驱动
 Click DETECT=点击以检测
+Detect=检测驱动
+Load drivers=加载驱动
+Mainboard temperature=主板温度
+Not used=未使用
+Processor temperature=处理器温度
+Rescan=重新扫描
+Save=保存
+Sensors=传感器
 Unload drivers=卸载驱动
+
 
 :temp_drivers_plug:
 > 点击 “检测驱动” 将会调用 “sensors-detect” 脚本以识别设备传感器所需驱动。检测完毕后将会保存为列表。<br>
