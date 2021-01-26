@@ -444,6 +444,15 @@ YesTime Machine hidden=是/时间机器（隐藏）
 YesTime Machine=是/时间机器
 You must reboot for changes to take effect=您必须重新启动才能使更改生效
 Your browser does not support HTML5 file uploads=您的浏览器不支持 HTML5 文件上传
+Host=主机
+Stream=串流内容
+Playtime=长度
+Halt=停止
+User name=用户名
+User Name=用户名
+Host Address=主机地址
+No active streams=没有活跃的串流
+unavailable=不可用
 
 
 

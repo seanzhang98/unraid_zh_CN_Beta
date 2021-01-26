@@ -10,6 +10,7 @@
 - Community Apps
 - Dynamix System Temperature
 - Dynamix System Statistics
+- Dynamix Active Streams
 - Unassigned Devices
 
 ## 使用方法：
