@@ -331,6 +331,7 @@ Temperature=温度
 Template Repositories=模板源
 Terminal=终端
 Test result=测试结果
+Test=测试
 Thank You=谢谢
 The error is=错误是
 to change notification settings=更改通知设置
