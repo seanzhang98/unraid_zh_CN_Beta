@@ -336,6 +336,7 @@ select=选择
 Self-Test=自检
 Serial Number=序列号
 Server=服务器
+server=服务器
 Settings=设置
 Share name=共享名称
 Share=共享
