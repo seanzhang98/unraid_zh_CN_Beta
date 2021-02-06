@@ -33,7 +33,7 @@ Plugin Note=插件说明
 
 ; Multi Install
 Install Plugin Applications=安装插件应用程序
-Select all on page=
+Select all on page=选中页面中的所有项目
 
 ; Searches
 Search=搜索
@@ -87,7 +87,7 @@ Post the ENTIRE contents of this message in the Community Applications Support T
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=发生未知错误   请在统计屏幕的支持对话中发布屏幕截图
 Something really wrong happened Reloading the Apps tab will probably fix the problem=真的出错了。重新加载应用选项卡可能会解决该问题
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=此插件的名称与另一个插件 %s 重复，这将影响您同时安装这两个插件的能力
-You have been logged out=
+You have been logged out=您已经登出
 
 ; CA Sections Keep the length reasonable
 MENU=菜单
@@ -335,7 +335,7 @@ Remove Language Pack=移除语言包
 Update Language Pack=更新语言包
 Installed Version=安装的版本
 A note about translations=翻译说明
-Click here to view the language changelog=
+Click here to view the language changelog=点击以查看语言包更新日志
 
 ; Help Text
 This chooses how to sort the results=这将选择结果的排序方式
