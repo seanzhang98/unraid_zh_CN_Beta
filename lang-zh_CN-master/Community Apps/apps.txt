@@ -169,6 +169,7 @@ Community Applications Changelog=应用社区更新日志
 Drivers=驱动
 Backup=备份
 Cloud=云服务
+Crypto Currency=加密货币
 Downloaders=下载程序
 Game Servers=游戏服务器
 Home Automation=家庭自动化
